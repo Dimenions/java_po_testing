@@ -169,7 +169,6 @@ public class TestSelenium {
         //Чекаем город
         WebElement is_city_xvalinsk = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div/div/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div/div/div/div[1]"));
         Assert.assertEquals(is_city_xvalinsk.getText(), "Ваш город — Хвалынск?");
-
-        // Assert.assertNotNull(user_ebalo);
+        
     }
 }
